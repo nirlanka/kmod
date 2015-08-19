@@ -6,7 +6,6 @@
 # include <linux/sched.h>
 # include <linux/list.h>
 
-// on load of module
 int
 _init_mod (void)
 {
@@ -14,14 +13,12 @@ _init_mod (void)
     return 0;
 }
 
-// on removal of module
 void
 _exit_mod (void)
 {
     printk(KERN_INFO "[nir] Removing module\n");
 }
 
-// register entry and exit points
 module_init (_init_mod);
 module_exit (_exit_mod);
 
