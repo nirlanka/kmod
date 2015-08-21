@@ -10,6 +10,19 @@ int
 _init_mod (void)
 {
     printk(KERN_INFO "[nir] Loading module\n");
+
+    printk(KERN_INFO "S\tPID\tName\n");
+
+    struct task_struct *task;
+    for_each_process (task)
+    {
+        printk(KERN_INFO "%d\t%d\t%s \n",
+            (int)task->state,
+            task->pid,
+            task->comm
+        );
+    }
+
     return 0;
 }
 
