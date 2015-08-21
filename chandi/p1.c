@@ -10,7 +10,7 @@ int mod_init (void)
 
     struct task_struct *task;
     for_each_process (task) {
-        printk(KERN_INFO "%d\t%d\t%s\n", task->pid, (int)task->state, )task->comm);
+        printk(KERN_INFO "%d\t%d\t%s\n", task->pid, (int)task->state, task->comm);
     }
     return 0;
 }
