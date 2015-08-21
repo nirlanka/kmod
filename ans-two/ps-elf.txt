@@ -1,0 +1,78 @@
+UID        PID  PPID   LWP  C NLWP STIME TTY          TIME CMD
+root         1     0     1  0    1 04:04 ?        00:00:01 /sbin/init
+root         2     0     2  0    1 04:04 ?        00:00:00 [kthreadd]
+root         3     2     3  0    1 04:04 ?        00:00:00 [ksoftirqd/0]
+root         5     2     5  0    1 04:04 ?        00:00:00 [kworker/0:0H]
+root         6     2     6  0    1 04:04 ?        00:00:00 [kworker/u2:0]
+root         7     2     7  0    1 04:04 ?        00:00:00 [rcu_sched]
+root         8     2     8  0    1 04:04 ?        00:00:00 [rcu_bh]
+root         9     2     9  0    1 04:04 ?        00:00:00 [rcuos/0]
+root        10     2    10  0    1 04:04 ?        00:00:00 [rcuob/0]
+root        11     2    11  0    1 04:04 ?        00:00:00 [migration/0]
+root        12     2    12  0    1 04:04 ?        00:00:00 [watchdog/0]
+root        13     2    13  0    1 04:04 ?        00:00:00 [khelper]
+root        14     2    14  0    1 04:04 ?        00:00:00 [kdevtmpfs]
+root        15     2    15  0    1 04:04 ?        00:00:00 [netns]
+root        16     2    16  0    1 04:04 ?        00:00:00 [perf]
+root        17     2    17  0    1 04:04 ?        00:00:00 [khungtaskd]
+root        18     2    18  0    1 04:04 ?        00:00:00 [writeback]
+root        19     2    19  0    1 04:04 ?        00:00:00 [ksmd]
+root        20     2    20  0    1 04:04 ?        00:00:00 [crypto]
+root        21     2    21  0    1 04:04 ?        00:00:00 [kintegrityd]
+root        22     2    22  0    1 04:04 ?        00:00:00 [bioset]
+root        23     2    23  0    1 04:04 ?        00:00:00 [kblockd]
+root        24     2    24  0    1 04:04 ?        00:00:00 [ata_sff]
+root        25     2    25  0    1 04:04 ?        00:00:00 [md]
+root        26     2    26  0    1 04:04 ?        00:00:00 [devfreq_wq]
+root        27     2    27  0    1 04:04 ?        00:00:00 [kworker/u2:1]
+root        28     2    28  0    1 04:04 ?        00:00:00 [kworker/0:1]
+root        29     2    29  0    1 04:04 ?        00:00:00 [kswapd0]
+root        30     2    30  0    1 04:04 ?        00:00:00 [fsnotify_mark]
+root        31     2    31  0    1 04:04 ?        00:00:00 [ecryptfs-kthrea]
+root        43     2    43  0    1 04:04 ?        00:00:00 [kthrotld]
+root        44     2    44  0    1 04:04 ?        00:00:00 [acpi_thermal_pm]
+root        45     2    45  0    1 04:04 ?        00:00:00 [scsi_eh_0]
+root        46     2    46  0    1 04:04 ?        00:00:00 [scsi_tmf_0]
+root        47     2    47  0    1 04:04 ?        00:00:00 [scsi_eh_1]
+root        48     2    48  0    1 04:04 ?        00:00:00 [scsi_tmf_1]
+root        53     2    53  0    1 04:04 ?        00:00:00 [ipv6_addrconf]
+root        73     2    73  0    1 04:04 ?        00:00:00 [deferwq]
+root        74     2    74  0    1 04:04 ?        00:00:00 [charger_manager]
+root       122     2   122  0    1 04:04 ?        00:00:00 [kworker/0:2]
+root       124     2   124  0    1 04:04 ?        00:00:00 [kpsmoused]
+root       126     2   126  0    1 04:04 ?        00:00:00 [scsi_eh_2]
+root       127     2   127  0    1 04:04 ?        00:00:00 [scsi_tmf_2]
+root       128     2   128  0    1 04:04 ?        00:00:00 [kworker/0:1H]
+root       135     2   135  0    1 04:04 ?        00:00:00 [kdmflush]
+root       136     2   136  0    1 04:04 ?        00:00:00 [bioset]
+root       138     2   138  0    1 04:04 ?        00:00:00 [kdmflush]
+root       141     2   141  0    1 04:04 ?        00:00:00 [bioset]
+root       154     2   154  0    1 04:04 ?        00:00:00 [jbd2/dm-0-8]
+root       155     2   155  0    1 04:04 ?        00:00:00 [ext4-rsv-conver]
+root       303     1   303  0    1 04:04 ?        00:00:00 upstart-udev-bridge --daemon
+root       310     1   310  0    1 04:04 ?        00:00:00 /lib/systemd/systemd-udevd --daemon
+root       375     2   375  0    1 04:04 ?        00:00:00 [iprt]
+root       436     1   436  0    1 04:04 ?        00:00:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       442     2   442  0    1 04:04 ?        00:00:00 [ext4-rsv-conver]
+message+   504     1   504  0    1 04:04 ?        00:00:00 dbus-daemon --system --fork
+syslog     547     1   547  0    4 04:04 ?        00:00:00 rsyslogd
+syslog     547     1   570  0    4 04:04 ?        00:00:00 rsyslogd
+syslog     547     1   571  0    4 04:04 ?        00:00:00 rsyslogd
+syslog     547     1   572  0    4 04:04 ?        00:00:00 rsyslogd
+root       573     1   573  0    1 04:04 ?        00:00:00 /lib/systemd/systemd-logind
+root       689     1   689  0    1 04:04 ?        00:00:00 upstart-file-bridge --daemon
+root       696     1   696  0    1 04:04 ?        00:00:00 upstart-socket-bridge --daemon
+root       792     1   792  0    1 04:04 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root       795     1   795  0    1 04:04 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root       799     1   799  0    1 04:04 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root       800     1   800  0    1 04:04 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root       802     1   802  0    1 04:04 tty6     00:00:00 /sbin/getty -8 38400 tty6
+root       839     1   839  0    1 04:04 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+daemon     851     1   851  0    1 04:04 ?        00:00:00 atd
+root       852     1   852  0    1 04:04 ?        00:00:00 cron
+root       943     1   943  0    1 04:04 tty1     00:00:00 /bin/login --    
+root       981     2   981  0    1 04:04 ?        00:00:00 [kauditd]
+nir       1028   943  1028  0    1 04:04 tty1     00:00:00 -bash
+nir       1085     1  1085  0    1 04:05 tty1     00:00:00 git-credential-cache--daemon /home/nir/.git-credential-cache/socket
+root      1911     2  1911  0    1 04:09 ?        00:00:00 [kworker/u2:2]
+nir       1984  1028  1984  0    1 04:13 tty1     00:00:00 ps -eLf
