@@ -36,5 +36,5 @@ module_init (_init_mod);
 module_exit (_exit_mod);
 
 MODULE_LICENSE ("GPL");
-MODULE_DESCRIPTION ("Module one");
+MODULE_DESCRIPTION ("Task List");
 MODULE_AUTHOR ("nir3al");
